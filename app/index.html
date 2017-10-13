@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Layout Using BEM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  </head>
+  <body>
+
+    <header class="main-header">
+      <h1 class="name">John Collins</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <img src="assets/images/responsive-layout-profile.png" alt="Picture of student.">
+      <p>Hi! I'm a front-end developer who loves responsive design and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!
+      </p>
+    </header>
+
+    <main>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div>
+          <img src="assets/images/portfolio-1.png" alt="Sample of a Marketing web page.">
+          <h3>Marketing Page</h3>
+          <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+        </div>
+        <div>
+          <img src="assets/images/portfolio-2.png" alt="Sample of a Search web page.">
+          <h3>Search Page</h3>
+          <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+        </div>
+        <div>
+          <img src="assets/images/portfolio-3.png" alt="Sample of a Travel App web page.">
+          <h3>Travel App</h3>
+          <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+        </div>
+        <div>
+          <img src="assets/images/portfolio-4.png" alt="Sample of a Map of Favorite Spots web page.">
+          <h3>Map of Favorite Spots</h3>
+          <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+        </div>
+        <div>
+          <img src="assets/images/portfolio-5.png" alt="Sample of a Marketing web page.">
+          <h3>Photo Gallery</h3>
+          <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+        </div>
+        <div class="project">
+          <img src="assets/images/portfolio-6.png" alt="Sample of a Calculator web page.">
+          <h3>Calculator</h3>
+          <p>Someone can enter the numbers that they want, and press the big blue button and get the results.</p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <p>HTML5, CSS3, Sass/PostCSS, JavaScript, jQuery, React, Nodejs, MongoDB, Git/GitHub, Gulp, Babel, Webpack</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you.</p>
+        <p><span>Phone</span>  <a href="tel:+11115551234">+1 (111) 555-1234</a></p>
+        <p><span>Email</span> <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
+      </section>
+
+    </main>
+
+    <footer class="main-footer">
+
+      <span id="footer-name">John Collins</span>
+      <span id="backtop"><a href="#">Back To Top</a></span>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </footer>
+
+  </body>
+</html>
